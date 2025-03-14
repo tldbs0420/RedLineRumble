@@ -588,6 +588,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43767e6bd1dd5c54d8fbd43a5e563f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RPM: 1
+  currentGear: 1
+  gearRatios:
+  - 1
+  - 0.5
+  - 0.25
+  - 0.125
+  - 0.0605
+  maxSpeeds:
+  - 60
+  - 80
+  - 100
+  - 120
+  - 140
+  rpmAcceleration: 0.1
+  rpmDeceleration: 0.2
+  defaultAccerlation: 1
+  airDeceleration: 1
+  roadSpeedFactor: 0.5
+  speed: 0
   power: 10
 --- !u!1 &5356747202331317169
 GameObject:

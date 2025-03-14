@@ -419,7 +419,19 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 706723080}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: MoveForward
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 7aff2466-41ff-4fc6-af7a-c1f7a37d5d3d
     m_ActionName: 'Player/Up[/Keyboard/upArrow]'
   - m_PersistentCalls:
@@ -459,7 +471,19 @@ MonoBehaviour:
     m_ActionId: fc45f4f3-3257-44ee-ba5d-6b7629707465
     m_ActionName: 'Player/Right[/Keyboard/rightArrow]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 706723080}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: GearChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: e13f991d-1a49-4737-8d22-a8f9106bfe03
     m_ActionName: 'Player/ChangeGear[/Keyboard/space]'
   - m_PersistentCalls:
